@@ -1,0 +1,2350 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F27K42 ]
+[d frameptr 16353 ]
+"53 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/nvm/src/nvm.c
+[e E15637 . `uc
+NVM_OK 0
+NVM_ERROR 1
+]
+"663 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[e E15936 . `uc
+HOST_CONFIG 0
+SPI1_DEFAULT 1
+]
+"692
+[e E16224 . `uc
+SRC_NONE 0
+SRC_LORA 1
+SRC_RFID 2
+]
+"844
+[e E15640 . `uc
+NVM_OK 0
+NVM_ERROR 1
+]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"3 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+"3 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"103 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v _Config_WriteDefaultsToEEPROM Config_WriteDefaultsToEEPROM `(v  1 s 1 Config_WriteDefaultsToEEPROM ]
+"127
+[v _UART1_ClearErrors UART1_ClearErrors `(v  1 e 1 0 ]
+[v i2_UART1_ClearErrors UART1_ClearErrors `(v  1 e 1 0 ]
+"139
+[v _UART2_ClearErrors UART2_ClearErrors `(v  1 e 1 0 ]
+"151
+[v _hex_digit hex_digit `(uc  1 s 1 hex_digit ]
+"158
+[v _UART_PrintHex16 UART_PrintHex16 `(v  1 e 1 0 ]
+"170
+[v _UART_WriteHex8 UART_WriteHex8 `(v  1 s 1 UART_WriteHex8 ]
+"181
+[v _RC522_TagPresent RC522_TagPresent `(a  1 s 1 RC522_TagPresent ]
+"191
+[v _RC522_ReadBlock RC522_ReadBlock `(a  1 s 1 RC522_ReadBlock ]
+"212
+[v _LoRa_ReadResponseToPC LoRa_ReadResponseToPC `(v  1 e 1 0 ]
+"277
+[v _hex_nibble hex_nibble `(c  1 s 1 hex_nibble ]
+"287
+[v _parse_hex_byte_2 parse_hex_byte_2 `(a  1 s 1 parse_hex_byte_2 ]
+"302
+[v _Parse_ID_FromSetCmd Parse_ID_FromSetCmd `(a  1 s 1 Parse_ID_FromSetCmd ]
+"318
+[v _BusList_Count BusList_Count `(uc  1 s 1 BusList_Count ]
+"325
+[v _BusList_Contains BusList_Contains `(a  1 s 1 BusList_Contains ]
+"339
+[v _BusList_Add BusList_Add `(a  1 s 1 BusList_Add ]
+"372
+[v _BusList_Remove BusList_Remove `(a  1 s 1 BusList_Remove ]
+"394
+[v _Bus_StopChanged Bus_StopChanged `(a  1 s 1 Bus_StopChanged ]
+"399
+[v _Bus_UpdateStop Bus_UpdateStop `(v  1 s 1 Bus_UpdateStop ]
+"404
+[v _BusTable_InitAuthorizedOnly BusTable_InitAuthorizedOnly `(v  1 s 1 BusTable_InitAuthorizedOnly ]
+"416
+[v _Lora_RxTimeout_ISR Lora_RxTimeout_ISR `(v  1 e 1 0 ]
+"431
+[v _Lora_Recebeu Lora_Recebeu `(v  1 s 1 Lora_Recebeu ]
+"502
+[v _Lora_Send Lora_Send `(v  1 s 1 Lora_Send ]
+"523
+[v _LoRa_PrintTxFrame LoRa_PrintTxFrame `(v  1 s 1 LoRa_PrintTxFrame ]
+"544
+[v _LoRa_PrintRxFrame LoRa_PrintRxFrame `(v  1 s 1 LoRa_PrintRxFrame ]
+"559
+[v _LoRa_PrintAckEvent LoRa_PrintAckEvent `(v  1 s 1 LoRa_PrintAckEvent ]
+"573
+[v _LoRa_PrintAckRx LoRa_PrintAckRx `(v  1 s 1 LoRa_PrintAckRx ]
+"584
+[v _LoRa_Send_TestCompat LoRa_Send_TestCompat `(v  1 s 1 LoRa_Send_TestCompat ]
+"603
+[v _Send_PendingAck_IfAny Send_PendingAck_IfAny `(v  1 s 1 Send_PendingAck_IfAny ]
+"631
+[v _LED_RefreshAll LED_RefreshAll `(v  1 s 1 LED_RefreshAll ]
+"657
+[v _main main `(i  1 e 2 0 ]
+"43 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/nvm/src/nvm.c
+[v _NVM_Initialize NVM_Initialize `(v  1 e 1 0 ]
+"48
+[v _NVM_IsBusy NVM_IsBusy `(a  1 e 1 0 ]
+"53
+[v _NVM_StatusGet NVM_StatusGet `(E15637  1 e 1 0 ]
+"67
+[v _NVM_StatusClear NVM_StatusClear `(v  1 e 1 0 ]
+"72
+[v _NVM_UnlockKeySet NVM_UnlockKeySet `(v  1 e 1 0 ]
+"257
+[v _EEPROM_Read EEPROM_Read `(uc  1 e 1 0 ]
+"272
+[v _EEPROM_Write EEPROM_Write `(v  1 e 1 0 ]
+"71 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/spi/src/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+"119
+[v _SPI1_Deinitialize SPI1_Deinitialize `(v  1 e 1 0 ]
+"134
+[v _SPI1_Open SPI1_Open `(a  1 e 1 0 ]
+"155
+[v _SPI1_Close SPI1_Close `(v  1 e 1 0 ]
+"163
+[v _SPI1_Transfer SPI1_Transfer `(v  1 e 1 0 ]
+"195
+[v _SPI1_BufferExchange SPI1_BufferExchange `(v  1 e 1 0 ]
+"226
+[v _SPI1_BufferWrite SPI1_BufferWrite `(v  1 e 1 0 ]
+"255
+[v _SPI1_BufferRead SPI1_BufferRead `(v  1 e 1 0 ]
+"284
+[v _SPI1_ByteExchange SPI1_ByteExchange `(uc  1 e 1 0 ]
+"307
+[v _SPI1_ByteWrite SPI1_ByteWrite `(v  1 e 1 0 ]
+"319
+[v _SPI1_ByteRead SPI1_ByteRead `(uc  1 e 1 0 ]
+"331
+[v _SPI1_IsTxReady SPI1_IsTxReady `(a  1 e 1 0 ]
+"345
+[v _SPI1_IsRxReady SPI1_IsRxReady `(a  1 e 1 0 ]
+"39 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"42 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"80
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"110
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"119
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"123
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"136
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"145
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"149
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"162
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+"171
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+"175
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"40 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"81
+[v _TMR0_Deinitialize TMR0_Deinitialize `(v  1 e 1 0 ]
+"94
+[v _TMR0_Start TMR0_Start `(v  1 e 1 0 ]
+"99
+[v _TMR0_Stop TMR0_Stop `(v  1 e 1 0 ]
+[v i2_TMR0_Stop TMR0_Stop `(v  1 e 1 0 ]
+"104
+[v _TMR0_CounterGet TMR0_CounterGet `(ul  1 e 4 0 ]
+"117
+[v _TMR0_CounterSet TMR0_CounterSet `(v  1 e 1 0 ]
+[v i2_TMR0_CounterSet TMR0_CounterSet `(v  1 e 1 0 ]
+"123
+[v _TMR0_PeriodSet TMR0_PeriodSet `(v  1 e 1 0 ]
+"131
+[v _TMR0_PeriodGet TMR0_PeriodGet `(ul  1 e 4 0 ]
+"136
+[v _TMR0_MaxCountGet TMR0_MaxCountGet `(ul  1 e 4 0 ]
+"141
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"153
+[v _TMR0_OverflowCallbackRegister TMR0_OverflowCallbackRegister `(v  1 e 1 0 ]
+"158
+[v _TMR0_DefaultOverflowCallback TMR0_DefaultOverflowCallback `(v  1 s 1 TMR0_DefaultOverflowCallback ]
+"129 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+"187
+[v _UART1_Deinitialize UART1_Deinitialize `(v  1 e 1 0 ]
+"222
+[v _UART1_TransmitEnable UART1_TransmitEnable `(v  1 e 1 0 ]
+"227
+[v _UART1_TransmitDisable UART1_TransmitDisable `(v  1 e 1 0 ]
+"232
+[v _UART1_ReceiveEnable UART1_ReceiveEnable `(v  1 e 1 0 ]
+[v i2_UART1_ReceiveEnable UART1_ReceiveEnable `(v  1 e 1 0 ]
+"237
+[v _UART1_ReceiveDisable UART1_ReceiveDisable `(v  1 e 1 0 ]
+[v i2_UART1_ReceiveDisable UART1_ReceiveDisable `(v  1 e 1 0 ]
+"252
+[v _UART1_AutoBaudSet UART1_AutoBaudSet `(v  1 e 1 0 ]
+"265
+[v _UART1_AutoBaudQuery UART1_AutoBaudQuery `(a  1 e 1 0 ]
+"304
+[v _UART1_IsRxReady UART1_IsRxReady `(a  1 e 1 0 ]
+"309
+[v _UART1_IsTxReady UART1_IsTxReady `(a  1 e 1 0 ]
+"314
+[v _UART1_IsTxDone UART1_IsTxDone `(a  1 e 1 0 ]
+"319
+[v _UART1_ErrorGet UART1_ErrorGet `(ui  1 e 2 0 ]
+[v i2_UART1_ErrorGet UART1_ErrorGet `(ui  1 e 2 0 ]
+"326
+[v _UART1_Read UART1_Read `(uc  1 e 1 0 ]
+[v i2_UART1_Read UART1_Read `(uc  1 e 1 0 ]
+"344
+[v _UART1_ReceiveISR UART1_ReceiveISR `(v  1 e 1 0 ]
+"397
+[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
+"422
+[v _UART1_TransmitISR UART1_TransmitISR `(v  1 e 1 0 ]
+"448
+[v _UART1_DefaultFramingErrorCallback UART1_DefaultFramingErrorCallback `(v  1 s 1 UART1_DefaultFramingErrorCallback ]
+[v i2_UART1_DefaultFramingErrorCallback UART1_DefaultFramingErrorCallback `(v  1 s 1 i2_UART1_DefaultFramingErrorCallback ]
+"453
+[v _UART1_DefaultOverrunErrorCallback UART1_DefaultOverrunErrorCallback `(v  1 s 1 UART1_DefaultOverrunErrorCallback ]
+[v i2_UART1_DefaultOverrunErrorCallback UART1_DefaultOverrunErrorCallback `(v  1 s 1 i2_UART1_DefaultOverrunErrorCallback ]
+"458
+[v _UART1_DefaultParityErrorCallback UART1_DefaultParityErrorCallback `(v  1 s 1 UART1_DefaultParityErrorCallback ]
+[v i2_UART1_DefaultParityErrorCallback UART1_DefaultParityErrorCallback `(v  1 s 1 i2_UART1_DefaultParityErrorCallback ]
+"463
+[v _UART1_FramingErrorCallbackRegister UART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+"471
+[v _UART1_OverrunErrorCallbackRegister UART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+"479
+[v _UART1_ParityErrorCallbackRegister UART1_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+"486
+[v _UART1_RxCompleteCallbackRegister UART1_RxCompleteCallbackRegister `(v  1 e 1 0 ]
+"494
+[v _UART1_TxCompleteCallbackRegister UART1_TxCompleteCallbackRegister `(v  1 e 1 0 ]
+"100 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart2.c
+[v _UART2_Initialize UART2_Initialize `(v  1 e 1 0 ]
+"137
+[v _UART2_Deinitialize UART2_Deinitialize `(v  1 e 1 0 ]
+"165
+[v _UART2_TransmitEnable UART2_TransmitEnable `(v  1 e 1 0 ]
+"170
+[v _UART2_TransmitDisable UART2_TransmitDisable `(v  1 e 1 0 ]
+"175
+[v _UART2_ReceiveEnable UART2_ReceiveEnable `(v  1 e 1 0 ]
+"180
+[v _UART2_ReceiveDisable UART2_ReceiveDisable `(v  1 e 1 0 ]
+"195
+[v _UART2_AutoBaudSet UART2_AutoBaudSet `(v  1 e 1 0 ]
+"208
+[v _UART2_AutoBaudQuery UART2_AutoBaudQuery `(a  1 e 1 0 ]
+"228
+[v _UART2_IsRxReady UART2_IsRxReady `(a  1 e 1 0 ]
+"233
+[v _UART2_IsTxReady UART2_IsTxReady `(a  1 e 1 0 ]
+"238
+[v _UART2_IsTxDone UART2_IsTxDone `(a  1 e 1 0 ]
+"243
+[v _UART2_ErrorGet UART2_ErrorGet `(ui  1 e 2 0 ]
+"275
+[v _UART2_Read UART2_Read `(uc  1 e 1 0 ]
+"281
+[v _UART2_Write UART2_Write `(v  1 e 1 0 ]
+"291
+[v _UART2_DefaultFramingErrorCallback UART2_DefaultFramingErrorCallback `(v  1 s 1 UART2_DefaultFramingErrorCallback ]
+[v i2_UART2_DefaultFramingErrorCallback UART2_DefaultFramingErrorCallback `(v  1 s 1 i2_UART2_DefaultFramingErrorCallback ]
+"296
+[v _UART2_DefaultOverrunErrorCallback UART2_DefaultOverrunErrorCallback `(v  1 s 1 UART2_DefaultOverrunErrorCallback ]
+[v i2_UART2_DefaultOverrunErrorCallback UART2_DefaultOverrunErrorCallback `(v  1 s 1 i2_UART2_DefaultOverrunErrorCallback ]
+"301
+[v _UART2_DefaultParityErrorCallback UART2_DefaultParityErrorCallback `(v  1 s 1 UART2_DefaultParityErrorCallback ]
+[v i2_UART2_DefaultParityErrorCallback UART2_DefaultParityErrorCallback `(v  1 s 1 i2_UART2_DefaultParityErrorCallback ]
+"306
+[v _UART2_FramingErrorCallbackRegister UART2_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+"314
+[v _UART2_OverrunErrorCallbackRegister UART2_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+"322
+[v _UART2_ParityErrorCallbackRegister UART2_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+"50 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\rc522.c
+[v _spi_xfer spi_xfer `T(uc  1 s 1 spi_xfer ]
+"56
+[v _MFRC522_WriteReg MFRC522_WriteReg `(v  1 e 1 0 ]
+"65
+[v _MFRC522_ReadReg MFRC522_ReadReg `(uc  1 e 1 0 ]
+"76
+[v _MFRC522_SetBitMask MFRC522_SetBitMask `(v  1 s 1 MFRC522_SetBitMask ]
+"82
+[v _MFRC522_ClearBitMask MFRC522_ClearBitMask `(v  1 s 1 MFRC522_ClearBitMask ]
+"98
+[v _MFRC522_AntennaOn MFRC522_AntennaOn `(v  1 s 1 MFRC522_AntennaOn ]
+"106
+[v _MFRC522_AntennaOff MFRC522_AntennaOff `(v  1 s 1 MFRC522_AntennaOff ]
+"115
+[v _MFRC522_Init MFRC522_Init `(v  1 e 1 0 ]
+"144
+[v _MFRC522_ToCard MFRC522_ToCard `(uc  1 s 1 MFRC522_ToCard ]
+"211
+[v _MFRC522_CRC MFRC522_CRC `(v  1 s 1 MFRC522_CRC ]
+"235
+[v _MFRC522_Request MFRC522_Request `(uc  1 e 1 0 ]
+"250
+[v _MFRC522_AntiColl MFRC522_AntiColl `(uc  1 e 1 0 ]
+"274
+[v _MFRC522_SelectTag MFRC522_SelectTag `(uc  1 e 1 0 ]
+"294
+[v _MFRC522_Auth MFRC522_Auth `(uc  1 e 1 0 ]
+"344
+[v _MFRC522_Read MFRC522_Read `(uc  1 e 1 0 ]
+"360
+[v _MFRC522_Halt MFRC522_Halt `(v  1 e 1 0 ]
+"375
+[v _MFRC522_SoftPowerDown MFRC522_SoftPowerDown `(v  1 e 1 0 ]
+"381
+[v _MFRC522_SoftPowerUp MFRC522_SoftPowerUp `(v  1 e 1 0 ]
+[s S338 . 1 `uc 1 DMA1SCNTIE 1 0 :1:0 
+`uc 1 DMA1DCNTIE 1 0 :1:1 
+`uc 1 DMA1ORIE 1 0 :1:2 
+`uc 1 DMA1AIE 1 0 :1:3 
+`uc 1 SPI1RXIE 1 0 :1:4 
+`uc 1 SPI1TXIE 1 0 :1:5 
+`uc 1 SPI1IE 1 0 :1:6 
+`uc 1 I2C1RXIE 1 0 :1:7 
+]
+"3413 C:/Program Files/Microchip/MPLABX/v6.30/packs/Microchip/PIC18F-K_DFP/1.15.303/xc8\pic\include\proc/pic18f27k42.h
+[u S347 . 1 `S338 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES347  1 e 1 @14738 ]
+[s S715 . 1 `uc 1 I2C1TXIE 1 0 :1:0 
+`uc 1 I2C1IE 1 0 :1:1 
+`uc 1 I2C1EIE 1 0 :1:2 
+`uc 1 U1RXIE 1 0 :1:3 
+`uc 1 U1TXIE 1 0 :1:4 
+`uc 1 U1EIE 1 0 :1:5 
+`uc 1 U1IE 1 0 :1:6 
+`uc 1 TMR0IE 1 0 :1:7 
+]
+"3475
+[u S724 . 1 `S715 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES724  1 e 1 @14739 ]
+[s S626 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 ZCDIF 1 0 :1:1 
+`uc 1 ADIF 1 0 :1:2 
+`uc 1 ADTIF 1 0 :1:3 
+`uc 1 C1IF 1 0 :1:4 
+`uc 1 SMT1IF 1 0 :1:5 
+`uc 1 SMT1PRAIF 1 0 :1:6 
+`uc 1 SMT1PWAIF 1 0 :1:7 
+]
+"3916
+[u S635 . 1 `S626 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES635  1 e 1 @14753 ]
+[s S472 . 1 `uc 1 DMA1SCNTIF 1 0 :1:0 
+`uc 1 DMA1DCNTIF 1 0 :1:1 
+`uc 1 DMA1ORIF 1 0 :1:2 
+`uc 1 DMA1AIF 1 0 :1:3 
+`uc 1 SPI1RXIF 1 0 :1:4 
+`uc 1 SPI1TXIF 1 0 :1:5 
+`uc 1 SPI1IF 1 0 :1:6 
+`uc 1 I2C1RXIF 1 0 :1:7 
+]
+"3978
+[u S481 . 1 `S472 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES481  1 e 1 @14754 ]
+[s S736 . 1 `uc 1 I2C1TXIF 1 0 :1:0 
+`uc 1 I2C1IF 1 0 :1:1 
+`uc 1 I2C1EIF 1 0 :1:2 
+`uc 1 U1RXIF 1 0 :1:3 
+`uc 1 U1TXIF 1 0 :1:4 
+`uc 1 U1EIF 1 0 :1:5 
+`uc 1 U1IF 1 0 :1:6 
+`uc 1 TMR0IF 1 0 :1:7 
+]
+"4040
+[u S745 . 1 `S736 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES745  1 e 1 @14755 ]
+[s S657 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 C2IF 1 0 :1:1 
+`uc 1 DMA2SCNTIF 1 0 :1:2 
+`uc 1 DMA2DCNTIF 1 0 :1:3 
+`uc 1 DMA2ORIF 1 0 :1:4 
+`uc 1 DMA2AIF 1 0 :1:5 
+`uc 1 I2C2RXIF 1 0 :1:6 
+`uc 1 I2C2TXIF 1 0 :1:7 
+]
+"4159
+[u S666 . 1 `S657 1 . 1 0 ]
+[v _PIR5bits PIR5bits `VES666  1 e 1 @14757 ]
+[s S688 . 1 `uc 1 TMR4IF 1 0 :1:0 
+`uc 1 CCP2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 CWG2IF 1 0 :1:3 
+`uc 1 CLC2IF 1 0 :1:4 
+`uc 1 INT2IF 1 0 :1:5 
+]
+"4281
+[u S695 . 1 `S688 1 . 1 0 ]
+[v _PIR7bits PIR7bits `VES695  1 e 1 @14759 ]
+"4900
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @14809 ]
+"5040
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @14811 ]
+"5192
+[v _OSCEN OSCEN `VEuc  1 e 1 @14813 ]
+"5243
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @14814 ]
+"5347
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @14815 ]
+"5427
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @14816 ]
+"5555
+[v _NVMADRH NVMADRH `VEuc  1 e 1 @14817 ]
+"5611
+[v _NVMDAT NVMDAT `VEuc  1 e 1 @14819 ]
+[s S28 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 REG 1 0 :2:6 
+]
+"5769
+[s S36 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 REG0 1 0 :1:6 
+`uc 1 REG1 1 0 :1:7 
+]
+[s S40 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NVMREG 1 0 :2:6 
+]
+[s S43 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NVMREG0 1 0 :1:6 
+`uc 1 NVMREG1 1 0 :1:7 
+]
+[u S47 . 1 `S28 1 . 1 0 `S36 1 . 1 0 `S40 1 . 1 0 `S43 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES47  1 e 1 @14821 ]
+"5829
+[v _NVMCON2 NVMCON2 `VEuc  1 e 1 @14822 ]
+"6659
+[v _RB1PPS RB1PPS `VEuc  1 e 1 @14857 ]
+"6759
+[v _RB3PPS RB3PPS `VEuc  1 e 1 @14859 ]
+"7209
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @14868 ]
+"7309
+[v _RC6PPS RC6PPS `VEuc  1 e 1 @14870 ]
+"7409
+[v _ANSELA ANSELA `VEuc  1 e 1 @14912 ]
+"7471
+[v _WPUA WPUA `VEuc  1 e 1 @14913 ]
+"7533
+[v _ODCONA ODCONA `VEuc  1 e 1 @14914 ]
+"7595
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @14915 ]
+"7657
+[v _INLVLA INLVLA `VEuc  1 e 1 @14916 ]
+"7719
+[v _IOCAP IOCAP `VEuc  1 e 1 @14917 ]
+"7781
+[v _IOCAN IOCAN `VEuc  1 e 1 @14918 ]
+"7843
+[v _IOCAF IOCAF `VEuc  1 e 1 @14919 ]
+"7905
+[v _ANSELB ANSELB `VEuc  1 e 1 @14928 ]
+[s S2941 . 1 `uc 1 ANSELB0 1 0 :1:0 
+`uc 1 ANSELB1 1 0 :1:1 
+`uc 1 ANSELB2 1 0 :1:2 
+`uc 1 ANSELB3 1 0 :1:3 
+`uc 1 ANSELB4 1 0 :1:4 
+`uc 1 ANSELB5 1 0 :1:5 
+`uc 1 ANSELB6 1 0 :1:6 
+`uc 1 ANSELB7 1 0 :1:7 
+]
+"7922
+[u S2950 . 1 `S2941 1 . 1 0 ]
+[v _ANSELBbits ANSELBbits `VES2950  1 e 1 @14928 ]
+"7967
+[v _WPUB WPUB `VEuc  1 e 1 @14929 ]
+"8029
+[v _ODCONB ODCONB `VEuc  1 e 1 @14930 ]
+"8091
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @14931 ]
+"8153
+[v _INLVLB INLVLB `VEuc  1 e 1 @14932 ]
+"8215
+[v _IOCBP IOCBP `VEuc  1 e 1 @14933 ]
+"8277
+[v _IOCBN IOCBN `VEuc  1 e 1 @14934 ]
+"8339
+[v _IOCBF IOCBF `VEuc  1 e 1 @14935 ]
+"8401
+[v _RB1I2C RB1I2C `VEuc  1 e 1 @14938 ]
+"8509
+[v _RB2I2C RB2I2C `VEuc  1 e 1 @14939 ]
+"8617
+[v _ANSELC ANSELC `VEuc  1 e 1 @14944 ]
+"8679
+[v _WPUC WPUC `VEuc  1 e 1 @14945 ]
+"8741
+[v _ODCONC ODCONC `VEuc  1 e 1 @14946 ]
+"8803
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @14947 ]
+"8865
+[v _INLVLC INLVLC `VEuc  1 e 1 @14948 ]
+"8927
+[v _IOCCP IOCCP `VEuc  1 e 1 @14949 ]
+"8989
+[v _IOCCN IOCCN `VEuc  1 e 1 @14950 ]
+"9051
+[v _IOCCF IOCCF `VEuc  1 e 1 @14951 ]
+"9113
+[v _RC3I2C RC3I2C `VEuc  1 e 1 @14954 ]
+"9221
+[v _RC4I2C RC4I2C `VEuc  1 e 1 @14955 ]
+"9329
+[v _WPUE WPUE `VEuc  1 e 1 @14977 ]
+"9350
+[v _INLVLE INLVLE `VEuc  1 e 1 @14980 ]
+"9371
+[v _IOCEP IOCEP `VEuc  1 e 1 @14981 ]
+"9392
+[v _IOCEN IOCEN `VEuc  1 e 1 @14982 ]
+"9413
+[v _IOCEF IOCEF `VEuc  1 e 1 @14983 ]
+"10054
+[v _SPI1SCKPPS SPI1SCKPPS `VEuc  1 e 1 @15070 ]
+"10074
+[v _SPI1SDIPPS SPI1SDIPPS `VEuc  1 e 1 @15071 ]
+"10194
+[v _U1RXPPS U1RXPPS `VEuc  1 e 1 @15077 ]
+"10234
+[v _U2RXPPS U2RXPPS `VEuc  1 e 1 @15080 ]
+"20768
+[v _SPI1RXB SPI1RXB `VEuc  1 e 1 @15632 ]
+"20838
+[v _SPI1TXB SPI1TXB `VEuc  1 e 1 @15633 ]
+"20915
+[v _SPI1TCNTL SPI1TCNTL `VEuc  1 e 1 @15634 ]
+"20935
+[v _SPI1TCNTH SPI1TCNTH `VEuc  1 e 1 @15635 ]
+"20955
+[v _SPI1CON0 SPI1CON0 `VEuc  1 e 1 @15636 ]
+[s S310 . 1 `uc 1 BMODE 1 0 :1:0 
+`uc 1 MST 1 0 :1:1 
+`uc 1 LSBF 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 EN 1 0 :1:7 
+]
+"20976
+[s S316 . 1 `uc 1 SPI1BMODE 1 0 :1:0 
+`uc 1 SPI1MST 1 0 :1:1 
+`uc 1 SPI1LSBF 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 SPI1SPIEN 1 0 :1:7 
+]
+[u S322 . 1 `S310 1 . 1 0 `S316 1 . 1 0 ]
+[v _SPI1CON0bits SPI1CON0bits `VES322  1 e 1 @15636 ]
+"21021
+[v _SPI1CON1 SPI1CON1 `VEuc  1 e 1 @15637 ]
+"21123
+[v _SPI1CON2 SPI1CON2 `VEuc  1 e 1 @15638 ]
+"21201
+[v _SPI1STATUS SPI1STATUS `VEuc  1 e 1 @15639 ]
+[s S369 . 1 `uc 1 RXBF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 CLRBF 1 0 :1:2 
+`uc 1 RXRE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 TXBE 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 TXWE 1 0 :1:7 
+]
+"21228
+[s S378 . 1 `uc 1 SPI1RXBF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 SPI1CLRBF 1 0 :1:2 
+`uc 1 SPI1RXRE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 SPI1TXBE 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 SPI1TXWE 1 0 :1:7 
+]
+[u S387 . 1 `S369 1 . 1 0 `S378 1 . 1 0 ]
+[v _SPI1STATUSbits SPI1STATUSbits `VES387  1 e 1 @15639 ]
+"21283
+[v _SPI1TWIDTH SPI1TWIDTH `VEuc  1 e 1 @15640 ]
+"21323
+[v _SPI1BAUD SPI1BAUD `VEuc  1 e 1 @15641 ]
+"21393
+[v _SPI1INTF SPI1INTF `VEuc  1 e 1 @15642 ]
+[s S431 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TXUIF 1 0 :1:1 
+`uc 1 RXOIF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 EOSIF 1 0 :1:4 
+`uc 1 SOSIF 1 0 :1:5 
+`uc 1 TCZIF 1 0 :1:6 
+`uc 1 SRMTIF 1 0 :1:7 
+]
+"21420
+[s S440 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SPI1TXUIF 1 0 :1:1 
+`uc 1 SPI1RXOIF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 SPI1EOSIF 1 0 :1:4 
+`uc 1 SPI1SOSIF 1 0 :1:5 
+`uc 1 SPI1TCZIF 1 0 :1:6 
+`uc 1 SPI1SRMTIF 1 0 :1:7 
+]
+[u S449 . 1 `S431 1 . 1 0 `S440 1 . 1 0 ]
+[v _SPI1INTFbits SPI1INTFbits `VES449  1 e 1 @15642 ]
+"21485
+[v _SPI1INTE SPI1INTE `VEuc  1 e 1 @15643 ]
+"21577
+[v _SPI1CLK SPI1CLK `VEuc  1 e 1 @15644 ]
+"23699
+[v _U2RXB U2RXB `VEuc  1 e 1 @15824 ]
+"23737
+[v _U2TXB U2TXB `VEuc  1 e 1 @15826 ]
+"23782
+[v _U2P1L U2P1L `VEuc  1 e 1 @15828 ]
+"23809
+[v _U2P2L U2P2L `VEuc  1 e 1 @15830 ]
+"23836
+[v _U2P3L U2P3L `VEuc  1 e 1 @15832 ]
+"23856
+[v _U2CON0 U2CON0 `VEuc  1 e 1 @15834 ]
+[s S1939 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+]
+"23887
+[s S1943 . 1 `uc 1 U2MODE 1 0 :4:0 
+`uc 1 U2RXEN 1 0 :1:4 
+`uc 1 U2TXEN 1 0 :1:5 
+`uc 1 U2ABDEN 1 0 :1:6 
+`uc 1 U2BRGS 1 0 :1:7 
+]
+[s S1949 . 1 `uc 1 U2MODE0 1 0 :1:0 
+`uc 1 U2MODE1 1 0 :1:1 
+`uc 1 U2MODE2 1 0 :1:2 
+]
+[s S1436 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 RXEN 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 ABDEN 1 0 :1:6 
+`uc 1 BRGS 1 0 :1:7 
+]
+[u S1959 . 1 `S1939 1 . 1 0 `S1943 1 . 1 0 `S1949 1 . 1 0 `S1436 1 . 1 0 ]
+[v _U2CON0bits U2CON0bits `VES1959  1 e 1 @15834 ]
+"23972
+[v _U2CON1 U2CON1 `VEuc  1 e 1 @15835 ]
+[s S1384 . 1 `uc 1 SENDB 1 0 :1:0 
+`uc 1 BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 RXBIMD 1 0 :1:3 
+`uc 1 WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 ON 1 0 :1:7 
+]
+"23997
+[s S1911 . 1 `uc 1 U2SENDB 1 0 :1:0 
+`uc 1 U2BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 U2RXBIMD 1 0 :1:3 
+`uc 1 U2WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 U2ON 1 0 :1:7 
+]
+[u S1919 . 1 `S1384 1 . 1 0 `S1911 1 . 1 0 ]
+[v _U2CON1bits U2CON1bits `VES1919  1 e 1 @15835 ]
+"24052
+[v _U2CON2 U2CON2 `VEuc  1 e 1 @15836 ]
+"24191
+[v _U2BRGL U2BRGL `VEuc  1 e 1 @15837 ]
+"24211
+[v _U2BRGH U2BRGH `VEuc  1 e 1 @15838 ]
+"24231
+[v _U2FIFO U2FIFO `VEuc  1 e 1 @15839 ]
+[s S2053 . 1 `uc 1 RXBF 1 0 :1:0 
+`uc 1 RXBE 1 0 :1:1 
+`uc 1 XON 1 0 :1:2 
+`uc 1 RXIDL 1 0 :1:3 
+`uc 1 TXBF 1 0 :1:4 
+`uc 1 TXBE 1 0 :1:5 
+`uc 1 STPMD 1 0 :1:6 
+`uc 1 TXWRE 1 0 :1:7 
+]
+"24266
+[s S2062 . 1 `uc 1 U2RXBF 1 0 :1:0 
+`uc 1 U2RXBE 1 0 :1:1 
+`uc 1 U2XON 1 0 :1:2 
+`uc 1 U2RXIDL 1 0 :1:3 
+`uc 1 U2TXBF 1 0 :1:4 
+`uc 1 U2TXBE 1 0 :1:5 
+`uc 1 U2STPMD 1 0 :1:6 
+`uc 1 U2TXWRE 1 0 :1:7 
+]
+[s S2071 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 U2RCIDL 1 0 :1:3 
+]
+[s S2074 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RCIDL 1 0 :1:3 
+]
+[u S2077 . 1 `S2053 1 . 1 0 `S2062 1 . 1 0 `S2071 1 . 1 0 `S2074 1 . 1 0 ]
+[v _U2FIFObits U2FIFObits `VES2077  1 e 1 @15839 ]
+"24361
+[v _U2UIR U2UIR `VEuc  1 e 1 @15840 ]
+[s S1470 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 ABDIE 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 ABDIF 1 0 :1:6 
+`uc 1 WUIF 1 0 :1:7 
+]
+"24382
+[s S1991 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 U2ABDIE 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 U2ABDIF 1 0 :1:6 
+`uc 1 U2WUIF 1 0 :1:7 
+]
+[u S1997 . 1 `S1470 1 . 1 0 `S1991 1 . 1 0 ]
+[v _U2UIRbits U2UIRbits `VES1997  1 e 1 @15840 ]
+"24417
+[v _U2ERRIR U2ERRIR `VEuc  1 e 1 @15841 ]
+[s S1498 . 1 `uc 1 TXCIF 1 0 :1:0 
+`uc 1 RXFOIF 1 0 :1:1 
+`uc 1 RXBKIF 1 0 :1:2 
+`uc 1 FERIF 1 0 :1:3 
+`uc 1 CERIF 1 0 :1:4 
+`uc 1 ABDOVF 1 0 :1:5 
+`uc 1 PERIF 1 0 :1:6 
+`uc 1 TXMTIF 1 0 :1:7 
+]
+"24444
+[s S2022 . 1 `uc 1 U2TXCIF 1 0 :1:0 
+`uc 1 U2RXFOIF 1 0 :1:1 
+`uc 1 U2RXBKIF 1 0 :1:2 
+`uc 1 U2FERIF 1 0 :1:3 
+`uc 1 U2CERIF 1 0 :1:4 
+`uc 1 U2ABDOVF 1 0 :1:5 
+`uc 1 U2PERIF 1 0 :1:6 
+`uc 1 U2TXMTIF 1 0 :1:7 
+]
+[u S2031 . 1 `S1498 1 . 1 0 `S2022 1 . 1 0 ]
+[v _U2ERRIRbits U2ERRIRbits `VES2031  1 e 1 @15841 ]
+"24529
+[v _U2ERRIE U2ERRIE `VEuc  1 e 1 @15842 ]
+"24641
+[v _U1RXB U1RXB `VEuc  1 e 1 @15848 ]
+"24679
+[v _U1RXCHK U1RXCHK `VEuc  1 e 1 @15849 ]
+"24699
+[v _U1TXB U1TXB `VEuc  1 e 1 @15850 ]
+"24737
+[v _U1TXCHK U1TXCHK `VEuc  1 e 1 @15851 ]
+"24764
+[v _U1P1L U1P1L `VEuc  1 e 1 @15852 ]
+"24784
+[v _U1P1H U1P1H `VEuc  1 e 1 @15853 ]
+"24811
+[v _U1P2L U1P2L `VEuc  1 e 1 @15854 ]
+"24831
+[v _U1P2H U1P2H `VEuc  1 e 1 @15855 ]
+"24858
+[v _U1P3L U1P3L `VEuc  1 e 1 @15856 ]
+"24878
+[v _U1P3H U1P3H `VEuc  1 e 1 @15857 ]
+"24898
+[v _U1CON0 U1CON0 `VEuc  1 e 1 @15858 ]
+[s S1420 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+]
+"24931
+[s S1425 . 1 `uc 1 U1MODE 1 0 :4:0 
+`uc 1 U1RXEN 1 0 :1:4 
+`uc 1 U1TXEN 1 0 :1:5 
+`uc 1 U1ABDEN 1 0 :1:6 
+`uc 1 U1BRGS 1 0 :1:7 
+]
+[s S1431 . 1 `uc 1 U1MODE0 1 0 :1:0 
+`uc 1 U1MODE1 1 0 :1:1 
+`uc 1 U1MODE2 1 0 :1:2 
+`uc 1 U1MODE3 1 0 :1:3 
+]
+[u S1442 . 1 `S1420 1 . 1 0 `S1425 1 . 1 0 `S1431 1 . 1 0 `S1436 1 . 1 0 ]
+[v _U1CON0bits U1CON0bits `VES1442  1 e 1 @15858 ]
+"25026
+[v _U1CON1 U1CON1 `VEuc  1 e 1 @15859 ]
+"25051
+[s S1392 . 1 `uc 1 U1SENDB 1 0 :1:0 
+`uc 1 U1BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 U1RXBIMD 1 0 :1:3 
+`uc 1 U1WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 U1ON 1 0 :1:7 
+]
+[u S1400 . 1 `S1384 1 . 1 0 `S1392 1 . 1 0 ]
+[v _U1CON1bits U1CON1bits `VES1400  1 e 1 @15859 ]
+"25106
+[v _U1CON2 U1CON2 `VEuc  1 e 1 @15860 ]
+"25255
+[v _U1BRGL U1BRGL `VEuc  1 e 1 @15861 ]
+"25275
+[v _U1BRGH U1BRGH `VEuc  1 e 1 @15862 ]
+"25295
+[v _U1FIFO U1FIFO `VEuc  1 e 1 @15863 ]
+"25425
+[v _U1UIR U1UIR `VEuc  1 e 1 @15864 ]
+"25446
+[s S1476 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 U1ABDIE 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 U1ABDIF 1 0 :1:6 
+`uc 1 U1WUIF 1 0 :1:7 
+]
+[u S1482 . 1 `S1470 1 . 1 0 `S1476 1 . 1 0 ]
+[v _U1UIRbits U1UIRbits `VES1482  1 e 1 @15864 ]
+"25481
+[v _U1ERRIR U1ERRIR `VEuc  1 e 1 @15865 ]
+"25508
+[s S1507 . 1 `uc 1 U1TXCIF 1 0 :1:0 
+`uc 1 U1RXFOIF 1 0 :1:1 
+`uc 1 U1RXBKIF 1 0 :1:2 
+`uc 1 U1FERIF 1 0 :1:3 
+`uc 1 U1CERIF 1 0 :1:4 
+`uc 1 U1ABDOVF 1 0 :1:5 
+`uc 1 U1PERIF 1 0 :1:6 
+`uc 1 U1TXMTIF 1 0 :1:7 
+]
+[u S1516 . 1 `S1498 1 . 1 0 `S1507 1 . 1 0 ]
+[v _U1ERRIRbits U1ERRIRbits `VES1516  1 e 1 @15865 ]
+"25593
+[v _U1ERRIE U1ERRIE `VEuc  1 e 1 @15866 ]
+"44054
+[v _TMR0L TMR0L `VEuc  1 e 1 @16310 ]
+"44192
+[v _TMR0H TMR0H `VEuc  1 e 1 @16311 ]
+"44446
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @16312 ]
+[s S1037 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 MD16 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"44480
+[s S1043 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T0MD16 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"44480
+[s S1049 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 T016BIT 1 0 :1:4 
+]
+"44480
+[s S1055 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+"44480
+[u S1060 . 1 `S1037 1 . 1 0 `S1043 1 . 1 0 `S1049 1 . 1 0 `S1055 1 . 1 0 ]
+"44480
+"44480
+[v _T0CON0bits T0CON0bits `VES1060  1 e 1 @16312 ]
+"44570
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @16313 ]
+"44712
+[v _LATA LATA `VEuc  1 e 1 @16314 ]
+[s S2391 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"44739
+[s S2400 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+"44739
+[u S2409 . 1 `S2391 1 . 1 0 `S2400 1 . 1 0 ]
+"44739
+"44739
+[v _LATAbits LATAbits `VES2409  1 e 1 @16314 ]
+"44824
+[v _LATB LATB `VEuc  1 e 1 @16315 ]
+[s S2899 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"44851
+[s S2908 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+"44851
+[u S2917 . 1 `S2899 1 . 1 0 `S2908 1 . 1 0 ]
+"44851
+"44851
+[v _LATBbits LATBbits `VES2917  1 e 1 @16315 ]
+"44936
+[v _LATC LATC `VEuc  1 e 1 @16316 ]
+[s S2351 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"44963
+[s S2360 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+"44963
+[u S2369 . 1 `S2351 1 . 1 0 `S2360 1 . 1 0 ]
+"44963
+"44963
+[v _LATCbits LATCbits `VES2369  1 e 1 @16316 ]
+"45048
+[v _TRISA TRISA `VEuc  1 e 1 @16322 ]
+"45110
+[v _TRISB TRISB `VEuc  1 e 1 @16323 ]
+[s S410 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"45127
+[u S419 . 1 `S410 1 . 1 0 ]
+"45127
+"45127
+[v _TRISBbits TRISBbits `VES419  1 e 1 @16323 ]
+"45172
+[v _TRISC TRISC `VEuc  1 e 1 @16324 ]
+[s S2453 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"45251
+[u S2462 . 1 `S2453 1 . 1 0 ]
+"45251
+"45251
+[v _PORTAbits PORTAbits `VES2462  1 e 1 @16330 ]
+[s S2314 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"45375
+[u S2323 . 1 `S2314 1 . 1 0 ]
+"45375
+"45375
+[v _PORTCbits PORTCbits `VES2323  1 e 1 @16332 ]
+[s S79 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"45461
+[s S87 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+"45461
+[u S90 . 1 `S79 1 . 1 0 `S87 1 . 1 0 ]
+"45461
+"45461
+[v _INTCON0bits INTCON0bits `VES90  1 e 1 @16338 ]
+"46588
+[v _TABLAT TABLAT `VEuc  1 e 1 @16373 ]
+"46617
+[v _TBLPTRL TBLPTRL `VEuc  1 e 1 @16374 ]
+"46637
+[v _TBLPTRH TBLPTRH `VEuc  1 e 1 @16375 ]
+"46657
+[v _TBLPTRU TBLPTRU `VEuc  1 e 1 @16376 ]
+"34 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v _DEFAULT_BUSES DEFAULT_BUSES `C[4]uc  1 s 4 DEFAULT_BUSES ]
+"69
+[v _flag_irs flag_irs `VEa  1 e 1 0 ]
+"70
+[v _lora_rx_enable lora_rx_enable `VEa  1 e 1 0 ]
+"71
+[v _lora_rx_buf lora_rx_buf `VE[4]uc  1 e 4 0 ]
+"72
+[v _lora_rx_idx lora_rx_idx `VEuc  1 e 1 0 ]
+"75
+[v _tx_payload tx_payload `[4]uc  1 e 4 0 ]
+"76
+[v _tx_expected_ack tx_expected_ack `uc  1 e 1 0 ]
+"77
+[v _tx_retry_count tx_retry_count `uc  1 e 1 0 ]
+"78
+[v _tx_phase tx_phase `uc  1 e 1 0 ]
+"79
+[v _tx_dest_mac tx_dest_mac `us  1 e 2 0 ]
+"80
+[v _ack_byte ack_byte `VEuc  1 e 1 0 ]
+"81
+[v _ack_pending_value ack_pending_value `VEuc  1 e 1 0 ]
+"82
+[v _ack_pending_dest ack_pending_dest `VEus  1 e 2 0 ]
+"83
+[v _g_stop_id g_stop_id `VEus  1 e 2 0 ]
+"84
+[v _flag_ack flag_ack `VEa  1 e 1 0 ]
+"85
+[v _waiting_ack waiting_ack `VEa  1 e 1 0 ]
+"86
+[v _ack_pending ack_pending `VEa  1 e 1 0 ]
+"89
+[v _last_stop_by_bus last_stop_by_bus `[256]us  1 s 512 last_stop_by_bus ]
+"92
+[v _keyA keyA `[6]uc  1 s 6 keyA ]
+"40 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/nvm/src/nvm.c
+[v _unlockKeyLow unlockKeyLow `VNEuc  1 s 1 unlockKeyLow ]
+"41
+[v _unlockKeyHigh unlockKeyHigh `VNEuc  1 s 1 unlockKeyHigh ]
+[s S304 . 5 `uc 1 con0 1 0 `uc 1 con1 1 1 `uc 1 con2 1 2 `uc 1 baud 1 3 `uc 1 clksel 1 4 ]
+"66 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/spi/src/spi1.c
+[v _spi1_configuration spi1_configuration `C[2]S304  1 s 10 spi1_configuration ]
+"38 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/system/src/interrupt.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.38(v  1 e 3 0 ]
+"39
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.38(v  1 e 3 0 ]
+"40
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.38(v  1 e 3 0 ]
+"52 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/timer/src/tmr0.c
+[v _tmr0PeriodCount tmr0PeriodCount `VEus  1 s 2 tmr0PeriodCount ]
+"53
+[v _TMR0_OverflowCallback TMR0_OverflowCallback `*.38(v  1 s 3 TMR0_OverflowCallback ]
+"83 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart1.c
+[v _uart1TxHead uart1TxHead `VEuc  1 s 1 uart1TxHead ]
+"84
+[v _uart1TxTail uart1TxTail `VEuc  1 s 1 uart1TxTail ]
+"85
+[v _uart1TxBufferRemaining uart1TxBufferRemaining `VEuc  1 s 1 uart1TxBufferRemaining ]
+"86
+[v _uart1TxBuffer uart1TxBuffer `VE[8]uc  1 s 8 uart1TxBuffer ]
+"88
+[v _uart1RxHead uart1RxHead `VEuc  1 s 1 uart1RxHead ]
+"89
+[v _uart1RxTail uart1RxTail `VEuc  1 s 1 uart1RxTail ]
+"90
+[v _uart1RxCount uart1RxCount `VEuc  1 s 1 uart1RxCount ]
+"91
+[v _uart1RxBuffer uart1RxBuffer `VE[128]uc  1 s 128 uart1RxBuffer ]
+[s S1316 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"97
+[u S1321 . 2 `S1316 1 . 1 0 `ui 1 status 2 0 ]
+[v _uart1RxStatusBuffer uart1RxStatusBuffer `VE[128]S1321  1 s 256 uart1RxStatusBuffer ]
+"104
+[v _uart1RxLastError uart1RxLastError `VES1321  1 s 2 uart1RxLastError ]
+"110
+[v _UART1_FramingErrorHandler UART1_FramingErrorHandler `*.38(v  1 s 3 UART1_FramingErrorHandler ]
+"111
+[v _UART1_OverrunErrorHandler UART1_OverrunErrorHandler `*.38(v  1 s 3 UART1_OverrunErrorHandler ]
+"112
+[v _UART1_ParityErrorHandler UART1_ParityErrorHandler `*.38(v  1 s 3 UART1_ParityErrorHandler ]
+"113
+[v _UART1_TxInterruptHandler UART1_TxInterruptHandler `*.38(v  1 e 3 0 ]
+"115
+[v _UART1_TxCompleteInterruptHandler UART1_TxCompleteInterruptHandler `*.38(v  1 s 3 UART1_TxCompleteInterruptHandler ]
+"116
+[v _UART1_RxInterruptHandler UART1_RxInterruptHandler `*.38(v  1 e 3 0 ]
+"117
+[v _UART1_RxCompleteInterruptHandler UART1_RxCompleteInterruptHandler `*.38(v  1 s 3 UART1_RxCompleteInterruptHandler ]
+"82 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart2.c
+[v _uart2RxLastError uart2RxLastError `VES1321  1 s 2 uart2RxLastError ]
+"88
+[v _UART2_FramingErrorHandler UART2_FramingErrorHandler `*.38(v  1 s 3 UART2_FramingErrorHandler ]
+"89
+[v _UART2_OverrunErrorHandler UART2_OverrunErrorHandler `*.38(v  1 s 3 UART2_OverrunErrorHandler ]
+"90
+[v _UART2_ParityErrorHandler UART2_ParityErrorHandler `*.38(v  1 s 3 UART2_ParityErrorHandler ]
+"657 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"1190
+[v main@_p_2883 _p `*.32Cuc  1 a 2 159 ]
+"950
+[v main@_p_2844 _p `*.32Cuc  1 a 2 133 ]
+"948
+[v main@_p_2842 _p `*.32Cuc  1 a 2 131 ]
+"930
+[v main@_p_2827 _p `*.32Cuc  1 a 2 119 ]
+"928
+[v main@_p_2825 _p `*.32Cuc  1 a 2 117 ]
+"914
+[v main@_p_2819 _p `*.32Cuc  1 a 2 113 ]
+"912
+[v main@_p_2817 _p `*.32Cuc  1 a 2 111 ]
+"933
+[v main@_p_2829 _p `*.32Cuc  1 a 2 121 ]
+"967
+[v main@i_2853 i `uc  1 a 1 176 ]
+"960
+[v main@_p_2851 _p `*.32Cuc  1 a 2 139 ]
+"954
+[v main@_p_2848 _p `*.32Cuc  1 a 2 137 ]
+"953
+[v main@_p_2846 _p `*.32Cuc  1 a 2 135 ]
+"946
+[v main@i_2841 i `uc  1 a 1 175 ]
+"945
+[v main@_p_2839 _p `*.32Cuc  1 a 2 129 ]
+"943
+[v main@_p_2837 _p `*.32Cuc  1 a 2 127 ]
+"942
+[v main@_p_2835 _p `*.32Cuc  1 a 2 125 ]
+"935
+[v main@_p_2831 _p `*.32Cuc  1 a 2 123 ]
+"918
+[v main@_p_2821 _p `*.32Cuc  1 a 2 115 ]
+"889
+[v main@c_2811 c `uc  1 a 1 178 ]
+"853
+[v main@_p_2799 _p `*.32Cuc  1 a 2 95 ]
+"851
+[v main@_p_2797 _p `*.32Cuc  1 a 2 93 ]
+"849
+[v main@_p_2795 _p `*.32Cuc  1 a 2 91 ]
+"844
+[v main@_p_2793 _p `*.32Cuc  1 a 2 89 ]
+"825
+[v main@i i `uc  1 a 1 174 ]
+"782
+[v main@c c `uc  1 a 1 177 ]
+"1075
+[v main@_p_2875 _p `*.32Cuc  1 a 2 155 ]
+"1064
+[v main@_p_2870 _p `*.32Cuc  1 a 2 153 ]
+"1062
+[v main@_p_2868 _p `*.32Cuc  1 a 2 151 ]
+"1060
+[v main@_p_2866 _p `*.32Cuc  1 a 2 149 ]
+"1058
+[v main@_p_2864 _p `*.32Cuc  1 a 2 147 ]
+"974
+[v main@_p_2856 _p `*.32Cuc  1 a 2 143 ]
+"972
+[v main@_p_2854 _p `*.32Cuc  1 a 2 141 ]
+"941
+[v main@n n `uc  1 a 1 62 ]
+"903
+[v main@_p_2813 _p `*.32Cuc  1 a 2 109 ]
+"902
+[v main@_p_2812 _p `*.39Cuc  1 a 2 107 ]
+"818
+[v main@_p_2787 _p `*.32Cuc  1 a 2 87 ]
+"814
+[v main@_p_2786 _p `*.39Cuc  1 a 2 85 ]
+"813
+[v main@_p_2785 _p `*.39Cuc  1 a 2 83 ]
+"1229
+[v main@_p_2896 _p `*.32Cuc  1 a 2 171 ]
+"1228
+[v main@_p_2894 _p `*.32Cuc  1 a 2 169 ]
+"1220
+[v main@_p_2892 _p `*.32Cuc  1 a 2 167 ]
+"1218
+[v main@_p_2890 _p `*.32Cuc  1 a 2 165 ]
+"1209
+[v main@_p_2888 _p `*.32Cuc  1 a 2 163 ]
+"1208
+[v main@_p_2886 _p `*.32Cuc  1 a 2 161 ]
+"1183
+[v main@t t `us  1 a 2 157 ]
+"1001
+[v main@i_2861 i `uc  1 a 1 179 ]
+"986
+[v main@_p_2858 _p `*.32Cuc  1 a 2 145 ]
+"875
+[v main@_p_2809 _p `*.32Cuc  1 a 2 105 ]
+"873
+[v main@_p_2807 _p `*.32Cuc  1 a 2 103 ]
+"872
+[v main@_p_2805 _p `*.32Cuc  1 a 2 101 ]
+"871
+[v main@_p_2803 _p `*.32Cuc  1 a 2 99 ]
+"870
+[v main@_p_2801 _p `*.32Cuc  1 a 2 97 ]
+"767
+[v main@_p_2781 _p `*.32Cuc  1 a 2 81 ]
+"765
+[v main@_p_2779 _p `*.32Cuc  1 a 2 79 ]
+"763
+[v main@_p_2777 _p `*.32Cuc  1 a 2 77 ]
+"761
+[v main@_p_2775 _p `*.32Cuc  1 a 2 75 ]
+"760
+[v main@_p_2773 _p `*.32Cuc  1 a 2 73 ]
+"756
+[v main@_p_2770 _p `*.32Cuc  1 a 2 71 ]
+"754
+[v main@_p_2768 _p `*.32Cuc  1 a 2 69 ]
+"748
+[v main@_p _p `*.32Cuc  1 a 2 67 ]
+"701
+[v main@comando_cfg_lora comando_cfg_lora `[30]uc  1 a 30 16 ]
+"697
+[v main@rfid_data rfid_data `[16]uc  1 a 16 0 ]
+"705
+[v main@cmd_cfg_stop cmd_cfg_stop `[10]uc  1 a 10 46 ]
+"710
+[v main@lora_frame lora_frame `[4]uc  1 a 4 56 ]
+"689
+[v main@stop_id stop_id `us  1 a 2 190 ]
+"694
+[v main@id_stop id_stop `us  1 a 2 185 ]
+"700
+[v main@id_cfg_lora id_cfg_lora `us  1 a 2 182 ]
+"712
+[v main@mac_back mac_back `us  1 a 2 65 ]
+"711
+[v main@mac_front mac_front `us  1 a 2 63 ]
+"715
+[v main@dest dest `us  1 a 2 60 ]
+"693
+[v main@id_bus id_bus `uc  1 a 1 189 ]
+"707
+[v main@val_cfg_stop val_cfg_stop `uc  1 a 1 188 ]
+"702
+[v main@idx_cfg_lora idx_cfg_lora `uc  1 a 1 187 ]
+"692
+[v main@src src `E16224  1 a 1 184 ]
+"706
+[v main@idx_cfg_stop idx_cfg_stop `uc  1 a 1 181 ]
+"695
+[v main@dir dir `uc  1 a 1 180 ]
+"716
+[v main@ack ack `uc  1 a 1 173 ]
+"1258
+} 0
+"3 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 3 0 ]
+{
+"5
+[v memset@p p `*.39uc  1 a 2 17 ]
+"3
+[v memset@dest dest `*.39v  1 p 2 11 ]
+[v memset@c c `i  1 p 2 13 ]
+[v memset@n n `ui  1 p 2 15 ]
+"10
+} 0
+"275 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart2.c
+[v _UART2_Read UART2_Read `(uc  1 e 1 0 ]
+{
+"278
+} 0
+"228
+[v _UART2_IsRxReady UART2_IsRxReady `(a  1 e 1 0 ]
+{
+"231
+} 0
+"139 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v _UART2_ClearErrors UART2_ClearErrors `(v  1 e 1 0 ]
+{
+[s S1316 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"141
+[u S1321 . 2 `S1316 1 . 1 0 `ui 1 status 2 0 ]
+[v UART2_ClearErrors@st st `S1321  1 a 2 13 ]
+"148
+} 0
+"175 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart2.c
+[v _UART2_ReceiveEnable UART2_ReceiveEnable `(v  1 e 1 0 ]
+{
+"178
+} 0
+"180
+[v _UART2_ReceiveDisable UART2_ReceiveDisable `(v  1 e 1 0 ]
+{
+"183
+} 0
+"243
+[v _UART2_ErrorGet UART2_ErrorGet `(ui  1 e 2 0 ]
+{
+"273
+} 0
+"458 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_DefaultParityErrorCallback UART1_DefaultParityErrorCallback `(v  1 s 1 UART1_DefaultParityErrorCallback ]
+{
+"461
+} 0
+"301 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart2.c
+[v _UART2_DefaultParityErrorCallback UART2_DefaultParityErrorCallback `(v  1 s 1 UART2_DefaultParityErrorCallback ]
+{
+"304
+} 0
+"453 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_DefaultOverrunErrorCallback UART1_DefaultOverrunErrorCallback `(v  1 s 1 UART1_DefaultOverrunErrorCallback ]
+{
+"456
+} 0
+"296 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart2.c
+[v _UART2_DefaultOverrunErrorCallback UART2_DefaultOverrunErrorCallback `(v  1 s 1 UART2_DefaultOverrunErrorCallback ]
+{
+"299
+} 0
+"448 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_DefaultFramingErrorCallback UART1_DefaultFramingErrorCallback `(v  1 s 1 UART1_DefaultFramingErrorCallback ]
+{
+"451
+} 0
+"291 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart2.c
+[v _UART2_DefaultFramingErrorCallback UART2_DefaultFramingErrorCallback `(v  1 s 1 UART2_DefaultFramingErrorCallback ]
+{
+"294
+} 0
+"486 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_RxCompleteCallbackRegister UART1_RxCompleteCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_RxCompleteCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 11 ]
+"492
+} 0
+"99 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Stop TMR0_Stop `(v  1 e 1 0 ]
+{
+"102
+} 0
+"153
+[v _TMR0_OverflowCallbackRegister TMR0_OverflowCallbackRegister `(v  1 e 1 0 ]
+{
+[v TMR0_OverflowCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 11 ]
+"156
+} 0
+"117
+[v _TMR0_CounterSet TMR0_CounterSet `(v  1 e 1 0 ]
+{
+[v TMR0_CounterSet@counterValue counterValue `ul  1 p 4 11 ]
+"121
+} 0
+"603 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v _Send_PendingAck_IfAny Send_PendingAck_IfAny `(v  1 s 1 Send_PendingAck_IfAny ]
+{
+"605
+[v Send_PendingAck_IfAny@dest dest `us  1 a 2 39 ]
+"606
+[v Send_PendingAck_IfAny@ack ack `uc  1 a 1 41 ]
+"624
+} 0
+"559
+[v _LoRa_PrintAckEvent LoRa_PrintAckEvent `(v  1 s 1 LoRa_PrintAckEvent ]
+{
+"569
+[v LoRa_PrintAckEvent@_p_2681 _p `*.32Cuc  1 a 2 36 ]
+"566
+[v LoRa_PrintAckEvent@_p_2679 _p `*.32Cuc  1 a 2 34 ]
+"563
+[v LoRa_PrintAckEvent@_p_2677 _p `*.32Cuc  1 a 2 32 ]
+"561
+[v LoRa_PrintAckEvent@_p _p `*.32Cuc  1 a 2 30 ]
+"559
+[v LoRa_PrintAckEvent@label label `*.32Cuc  1 p 2 25 ]
+[v LoRa_PrintAckEvent@dest_mac dest_mac `us  1 p 2 27 ]
+[v LoRa_PrintAckEvent@ack ack `uc  1 p 1 29 ]
+"570
+} 0
+"40 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"50
+} 0
+"100 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart2.c
+[v _UART2_Initialize UART2_Initialize `(v  1 e 1 0 ]
+{
+"135
+} 0
+"322
+[v _UART2_ParityErrorCallbackRegister UART2_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART2_ParityErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 11 ]
+"328
+} 0
+"314
+[v _UART2_OverrunErrorCallbackRegister UART2_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART2_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 11 ]
+"320
+} 0
+"306
+[v _UART2_FramingErrorCallbackRegister UART2_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART2_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 11 ]
+"312
+} 0
+"129 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+{
+"185
+} 0
+"479
+[v _UART1_ParityErrorCallbackRegister UART1_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_ParityErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 11 ]
+"485
+} 0
+"471
+[v _UART1_OverrunErrorCallbackRegister UART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 11 ]
+"477
+} 0
+"463
+[v _UART1_FramingErrorCallbackRegister UART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 11 ]
+"469
+} 0
+"60 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"79
+} 0
+"71 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/spi/src/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+{
+"117
+} 0
+"38 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"127
+} 0
+"43 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/nvm/src/nvm.c
+[v _NVM_Initialize NVM_Initialize `(v  1 e 1 0 ]
+{
+"46
+} 0
+"67
+[v _NVM_StatusClear NVM_StatusClear `(v  1 e 1 0 ]
+{
+"70
+} 0
+"42 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"171
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 11 ]
+"173
+} 0
+"145
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 11 ]
+"147
+} 0
+"119
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 11 ]
+"121
+} 0
+"39 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"134 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/spi/src/spi1.c
+[v _SPI1_Open SPI1_Open `(a  1 e 1 0 ]
+{
+[v SPI1_Open@spiConfigIndex spiConfigIndex `uc  1 p 1 11 ]
+"153
+} 0
+"181 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v _RC522_TagPresent RC522_TagPresent `(a  1 s 1 RC522_TagPresent ]
+{
+"183
+[v RC522_TagPresent@tagType tagType `[2]uc  1 a 2 42 ]
+"185
+} 0
+"235 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\rc522.c
+[v _MFRC522_Request MFRC522_Request `(uc  1 e 1 0 ]
+{
+[v MFRC522_Request@reqMode reqMode `uc  1 p 1 wreg ]
+"238
+[v MFRC522_Request@backBits backBits `ui  1 a 2 40 ]
+"237
+[v MFRC522_Request@_status _status `uc  1 a 1 39 ]
+"235
+[v MFRC522_Request@reqMode reqMode `uc  1 p 1 wreg ]
+[v MFRC522_Request@TagType TagType `*.30uc  1 p 1 37 ]
+"240
+[v MFRC522_Request@reqMode reqMode `uc  1 p 1 38 ]
+"247
+} 1
+"191 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v _RC522_ReadBlock RC522_ReadBlock `(a  1 s 1 RC522_ReadBlock ]
+{
+[v RC522_ReadBlock@blockAddr blockAddr `uc  1 p 1 wreg ]
+"201
+[v RC522_ReadBlock@i i `uc  1 a 1 22 ]
+"194
+[v RC522_ReadBlock@buf buf `[16]uc  1 a 16 0 ]
+"193
+[v RC522_ReadBlock@uid uid `[5]uc  1 a 5 16 ]
+"191
+[v RC522_ReadBlock@blockAddr blockAddr `uc  1 p 1 wreg ]
+[v RC522_ReadBlock@out16 out16 `*.39uc  1 p 2 58 ]
+"196
+[v RC522_ReadBlock@blockAddr blockAddr `uc  1 p 1 21 ]
+"204
+} 1
+"274 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\rc522.c
+[v _MFRC522_SelectTag MFRC522_SelectTag `(uc  1 e 1 0 ]
+{
+"279
+[v MFRC522_SelectTag@buffer buffer `[9]uc  1 a 9 38 ]
+"278
+[v MFRC522_SelectTag@recvBits recvBits `ui  1 a 2 51 ]
+"276
+[v MFRC522_SelectTag@i i `uc  1 a 1 53 ]
+"277
+[v MFRC522_SelectTag@_status _status `uc  1 a 1 48 ]
+"276
+[v MFRC522_SelectTag@size size `uc  1 a 1 47 ]
+"274
+[v MFRC522_SelectTag@serNum serNum `*.30uc  1 p 1 37 ]
+"291
+} 0
+"344
+[v _MFRC522_Read MFRC522_Read `(uc  1 e 1 0 ]
+{
+[v MFRC522_Read@blockAddr blockAddr `uc  1 p 1 wreg ]
+"347
+[v MFRC522_Read@unLen unLen `ui  1 a 2 40 ]
+"346
+[v MFRC522_Read@_status _status `uc  1 a 1 39 ]
+"344
+[v MFRC522_Read@blockAddr blockAddr `uc  1 p 1 wreg ]
+[v MFRC522_Read@recvData recvData `*.30uc  1 p 1 37 ]
+"349
+[v MFRC522_Read@blockAddr blockAddr `uc  1 p 1 38 ]
+"357
+} 1
+"360
+[v _MFRC522_Halt MFRC522_Halt `(v  1 e 1 0 ]
+{
+"363
+[v MFRC522_Halt@buff buff `[4]uc  1 a 4 37 ]
+"362
+[v MFRC522_Halt@unLen unLen `ui  1 a 2 41 ]
+"372
+} 0
+"211
+[v _MFRC522_CRC MFRC522_CRC `(v  1 s 1 MFRC522_CRC ]
+{
+"213
+[v MFRC522_CRC@i i `uc  1 a 1 25 ]
+[v MFRC522_CRC@n n `uc  1 a 1 24 ]
+"211
+[v MFRC522_CRC@dataIn dataIn `*.30uc  1 p 1 21 ]
+[v MFRC522_CRC@length length `uc  1 p 1 22 ]
+[v MFRC522_CRC@dataOut dataOut `*.30uc  1 p 1 23 ]
+"232
+} 0
+"294
+[v _MFRC522_Auth MFRC522_Auth `(uc  1 e 1 0 ]
+{
+[v MFRC522_Auth@authMode authMode `uc  1 p 1 wreg ]
+"299
+[v MFRC522_Auth@buff buff `[12]uc  1 a 12 41 ]
+"297
+[v MFRC522_Auth@recvBits recvBits `ui  1 a 2 54 ]
+"298
+[v MFRC522_Auth@i i `uc  1 a 1 57 ]
+"296
+[v MFRC522_Auth@_status _status `uc  1 a 1 56 ]
+"294
+[v MFRC522_Auth@authMode authMode `uc  1 p 1 wreg ]
+[v MFRC522_Auth@blockAddr blockAddr `uc  1 p 1 37 ]
+[v MFRC522_Auth@Sectorkey Sectorkey `*.30uc  1 p 1 38 ]
+[v MFRC522_Auth@serNum serNum `*.30uc  1 p 1 39 ]
+"301
+[v MFRC522_Auth@authMode authMode `uc  1 p 1 53 ]
+"312
+} 1
+"250
+[v _MFRC522_AntiColl MFRC522_AntiColl `(uc  1 e 1 0 ]
+{
+"255
+[v MFRC522_AntiColl@unLen unLen `ui  1 a 2 40 ]
+"253
+[v MFRC522_AntiColl@i i `uc  1 a 1 43 ]
+"252
+[v MFRC522_AntiColl@_status _status `uc  1 a 1 42 ]
+"254
+[v MFRC522_AntiColl@serNumCheck serNumCheck `uc  1 a 1 39 ]
+"250
+[v MFRC522_AntiColl@serNum serNum `*.30uc  1 p 1 37 ]
+"271
+} 0
+"144
+[v _MFRC522_ToCard MFRC522_ToCard `(uc  1 s 1 MFRC522_ToCard ]
+{
+[v MFRC522_ToCard@command command `uc  1 p 1 wreg ]
+"151
+[v MFRC522_ToCard@i i `ui  1 a 2 34 ]
+"150
+[v MFRC522_ToCard@n n `uc  1 a 1 36 ]
+"147
+[v MFRC522_ToCard@irqEn irqEn `uc  1 a 1 32 ]
+"149
+[v MFRC522_ToCard@lastBits lastBits `uc  1 a 1 31 ]
+"148
+[v MFRC522_ToCard@waitIRq waitIRq `uc  1 a 1 30 ]
+"146
+[v MFRC522_ToCard@_status _status `uc  1 a 1 29 ]
+"144
+[v MFRC522_ToCard@command command `uc  1 p 1 wreg ]
+[v MFRC522_ToCard@sendData sendData `*.30uc  1 p 1 21 ]
+[v MFRC522_ToCard@sendLen sendLen `uc  1 p 1 22 ]
+[v MFRC522_ToCard@backData backData `*.30uc  1 p 1 23 ]
+[v MFRC522_ToCard@backLen backLen `*.30ui  1 p 1 24 ]
+"146
+[v MFRC522_ToCard@command command `uc  1 p 1 33 ]
+"208
+} 1
+"302 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v _Parse_ID_FromSetCmd Parse_ID_FromSetCmd `(a  1 s 1 Parse_ID_FromSetCmd ]
+{
+"306
+[v Parse_ID_FromSetCmd@p p `*.39Cuc  1 a 2 26 ]
+"307
+[v Parse_ID_FromSetCmd@b1 b1 `uc  1 a 1 25 ]
+[v Parse_ID_FromSetCmd@b0 b0 `uc  1 a 1 24 ]
+"302
+[v Parse_ID_FromSetCmd@cmd cmd `*.39Cuc  1 p 2 18 ]
+[v Parse_ID_FromSetCmd@id_out id_out `*.39us  1 p 2 20 ]
+"315
+} 0
+"287
+[v _parse_hex_byte_2 parse_hex_byte_2 `(a  1 s 1 parse_hex_byte_2 ]
+{
+"290
+[v parse_hex_byte_2@lo lo `c  1 a 1 17 ]
+"289
+[v parse_hex_byte_2@hi hi `c  1 a 1 16 ]
+"287
+[v parse_hex_byte_2@p p `*.39Cuc  1 p 2 12 ]
+[v parse_hex_byte_2@out out `*.39uc  1 p 2 14 ]
+"296
+} 0
+"277
+[v _hex_nibble hex_nibble `(c  1 s 1 hex_nibble ]
+{
+[v hex_nibble@c c `uc  1 p 1 wreg ]
+[v hex_nibble@c c `uc  1 p 1 wreg ]
+"279
+[v hex_nibble@c c `uc  1 p 1 11 ]
+"283
+} 1
+"72 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/nvm/src/nvm.c
+[v _NVM_UnlockKeySet NVM_UnlockKeySet `(v  1 e 1 0 ]
+{
+[v NVM_UnlockKeySet@unlockKey unlockKey `us  1 p 2 11 ]
+"76
+} 0
+"53
+[v _NVM_StatusGet NVM_StatusGet `(E15637  1 e 1 0 ]
+{
+"55
+[v NVM_StatusGet@nvmStatus nvmStatus `E15637  1 a 1 11 ]
+"65
+} 0
+"381 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\rc522.c
+[v _MFRC522_SoftPowerUp MFRC522_SoftPowerUp `(v  1 e 1 0 ]
+{
+"385
+} 0
+"375
+[v _MFRC522_SoftPowerDown MFRC522_SoftPowerDown `(v  1 e 1 0 ]
+{
+"378
+} 0
+"115
+[v _MFRC522_Init MFRC522_Init `(v  1 e 1 0 ]
+{
+"137
+} 0
+"98
+[v _MFRC522_AntennaOn MFRC522_AntennaOn `(v  1 s 1 MFRC522_AntennaOn ]
+{
+"100
+[v MFRC522_AntennaOn@v v `uc  1 a 1 20 ]
+"103
+} 0
+"76
+[v _MFRC522_SetBitMask MFRC522_SetBitMask `(v  1 s 1 MFRC522_SetBitMask ]
+{
+[v MFRC522_SetBitMask@reg reg `uc  1 p 1 wreg ]
+[v MFRC522_SetBitMask@reg reg `uc  1 p 1 wreg ]
+[v MFRC522_SetBitMask@mask mask `uc  1 p 1 18 ]
+"78
+[v MFRC522_SetBitMask@reg reg `uc  1 p 1 19 ]
+"79
+} 1
+"106
+[v _MFRC522_AntennaOff MFRC522_AntennaOff `(v  1 s 1 MFRC522_AntennaOff ]
+{
+"109
+} 0
+"82
+[v _MFRC522_ClearBitMask MFRC522_ClearBitMask `(v  1 s 1 MFRC522_ClearBitMask ]
+{
+[v MFRC522_ClearBitMask@reg reg `uc  1 p 1 wreg ]
+[v MFRC522_ClearBitMask@reg reg `uc  1 p 1 wreg ]
+[v MFRC522_ClearBitMask@mask mask `uc  1 p 1 18 ]
+"84
+[v MFRC522_ClearBitMask@reg reg `uc  1 p 1 20 ]
+"85
+} 1
+"56
+[v _MFRC522_WriteReg MFRC522_WriteReg `(v  1 e 1 0 ]
+{
+[v MFRC522_WriteReg@reg reg `uc  1 p 1 wreg ]
+[v MFRC522_WriteReg@reg reg `uc  1 p 1 wreg ]
+[v MFRC522_WriteReg@value value `uc  1 p 1 16 ]
+"58
+[v MFRC522_WriteReg@reg reg `uc  1 p 1 17 ]
+"62
+} 1
+"65
+[v _MFRC522_ReadReg MFRC522_ReadReg `(uc  1 e 1 0 ]
+{
+[v MFRC522_ReadReg@reg reg `uc  1 p 1 wreg ]
+"67
+[v MFRC522_ReadReg@val val `uc  1 a 1 15 ]
+"65
+[v MFRC522_ReadReg@reg reg `uc  1 p 1 wreg ]
+"68
+[v MFRC522_ReadReg@reg reg `uc  1 p 1 14 ]
+"73
+} 1
+"50
+[v _spi_xfer spi_xfer `T(uc  1 s 1 spi_xfer ]
+{
+[v spi_xfer@v v `uc  1 p 1 wreg ]
+[v spi_xfer@v v `uc  1 p 1 wreg ]
+"52
+[v spi_xfer@v v `uc  1 p 1 13 ]
+"53
+} 1
+"284 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/spi/src/spi1.c
+[v _SPI1_ByteExchange SPI1_ByteExchange `(uc  1 e 1 0 ]
+{
+"286
+[v SPI1_ByteExchange@returnValue returnValue `uc  1 a 1 12 ]
+"284
+[v SPI1_ByteExchange@byteData byteData `uc  1 p 1 11 ]
+"305
+} 0
+"584 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v _LoRa_Send_TestCompat LoRa_Send_TestCompat `(v  1 s 1 LoRa_Send_TestCompat ]
+{
+"586
+[v LoRa_Send_TestCompat@data data `[4]uc  1 a 4 46 ]
+"585
+[v LoRa_Send_TestCompat@F16346 F16346 `[4]uc  1 s 4 F16346 ]
+"596
+} 0
+"314 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_IsTxDone UART1_IsTxDone `(a  1 e 1 0 ]
+{
+"317
+} 0
+"502 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v _Lora_Send Lora_Send `(v  1 s 1 Lora_Send ]
+{
+"515
+[v Lora_Send@i i `uc  1 a 1 19 ]
+"502
+[v Lora_Send@dest_mac dest_mac `us  1 p 2 13 ]
+[v Lora_Send@ch ch `uc  1 p 1 15 ]
+[v Lora_Send@data data `*.39Cuc  1 p 2 16 ]
+[v Lora_Send@len len `uc  1 p 1 18 ]
+"520
+} 0
+"397 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
+{
+"399
+[v UART1_Write@tempTxHead tempTxHead `uc  1 a 1 12 ]
+"397
+[v UART1_Write@txData txData `uc  1 p 1 11 ]
+"419
+} 0
+"309
+[v _UART1_IsTxReady UART1_IsTxReady `(a  1 e 1 0 ]
+{
+"312
+} 0
+"523 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v _LoRa_PrintTxFrame LoRa_PrintTxFrame `(v  1 s 1 LoRa_PrintTxFrame ]
+{
+"537
+[v LoRa_PrintTxFrame@_p_2656 _p `*.32Cuc  1 a 2 40 ]
+"540
+[v LoRa_PrintTxFrame@_p_2658 _p `*.32Cuc  1 a 2 42 ]
+"534
+[v LoRa_PrintTxFrame@i i `uc  1 a 1 44 ]
+"533
+[v LoRa_PrintTxFrame@_p_2653 _p `*.32Cuc  1 a 2 38 ]
+"530
+[v LoRa_PrintTxFrame@_p_2650 _p `*.32Cuc  1 a 2 36 ]
+"527
+[v LoRa_PrintTxFrame@_p_2647 _p `*.32Cuc  1 a 2 34 ]
+"525
+[v LoRa_PrintTxFrame@_p _p `*.32Cuc  1 a 2 32 ]
+"523
+[v LoRa_PrintTxFrame@label label `*.32Cuc  1 p 2 25 ]
+[v LoRa_PrintTxFrame@dest_mac dest_mac `us  1 p 2 27 ]
+[v LoRa_PrintTxFrame@ch ch `uc  1 p 1 29 ]
+[v LoRa_PrintTxFrame@data data `*.30Cuc  1 p 1 30 ]
+[v LoRa_PrintTxFrame@len len `uc  1 p 1 31 ]
+"541
+} 0
+"158
+[v _UART_PrintHex16 UART_PrintHex16 `(v  1 e 1 0 ]
+{
+"166
+[v UART_PrintHex16@_p _p `*.30Cuc  1 a 1 24 ]
+"160
+[v UART_PrintHex16@s s `[5]uc  1 a 5 19 ]
+"158
+[v UART_PrintHex16@v v `us  1 p 2 14 ]
+"167
+} 0
+"212
+[v _LoRa_ReadResponseToPC LoRa_ReadResponseToPC `(v  1 e 1 0 ]
+{
+"231
+[v LoRa_ReadResponseToPC@_p _p `*.32Cuc  1 a 2 62 ]
+"215
+[v LoRa_ReadResponseToPC@line line `[60]uc  1 a 60 0 ]
+"218
+[v LoRa_ReadResponseToPC@timeout timeout `us  1 a 2 60 ]
+"214
+[v LoRa_ReadResponseToPC@c c `uc  1 a 1 66 ]
+"216
+[v LoRa_ReadResponseToPC@idx idx `uc  1 a 1 65 ]
+"217
+[v LoRa_ReadResponseToPC@in_help in_help `a  1 a 1 64 ]
+"273
+} 0
+"3 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+{
+[v strncmp@l l `*.39Cuc  1 p 2 11 ]
+[v strncmp@r r `*.32Cuc  1 p 2 13 ]
+[v strncmp@n n `ui  1 p 2 15 ]
+"8
+} 0
+"3 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+{
+[v strcmp@l l `*.39Cuc  1 p 2 11 ]
+[v strcmp@r r `*.32Cuc  1 p 2 13 ]
+"7
+} 0
+"326 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_Read UART1_Read `(uc  1 e 1 0 ]
+{
+"328
+[v UART1_Read@readValue readValue `uc  1 a 1 12 ]
+"329
+[v UART1_Read@tempRxTail tempRxTail `uc  1 a 1 11 ]
+"341
+} 0
+"304
+[v _UART1_IsRxReady UART1_IsRxReady `(a  1 e 1 0 ]
+{
+"307
+} 0
+"127 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v _UART1_ClearErrors UART1_ClearErrors `(v  1 e 1 0 ]
+{
+[s S1316 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"129
+[u S1321 . 2 `S1316 1 . 1 0 `ui 1 status 2 0 ]
+[v UART1_ClearErrors@st st `S1321  1 a 2 14 ]
+"136
+} 0
+"232 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_ReceiveEnable UART1_ReceiveEnable `(v  1 e 1 0 ]
+{
+"235
+} 0
+"237
+[v _UART1_ReceiveDisable UART1_ReceiveDisable `(v  1 e 1 0 ]
+{
+"240
+} 0
+"319
+[v _UART1_ErrorGet UART1_ErrorGet `(ui  1 e 2 0 ]
+{
+"324
+} 0
+"544 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v _LoRa_PrintRxFrame LoRa_PrintRxFrame `(v  1 s 1 LoRa_PrintRxFrame ]
+{
+"552
+[v LoRa_PrintRxFrame@_p_2668 _p `*.32Cuc  1 a 2 31 ]
+"555
+[v LoRa_PrintRxFrame@_p_2670 _p `*.32Cuc  1 a 2 33 ]
+"549
+[v LoRa_PrintRxFrame@i i `uc  1 a 1 35 ]
+"547
+[v LoRa_PrintRxFrame@_p_2665 _p `*.32Cuc  1 a 2 29 ]
+"546
+[v LoRa_PrintRxFrame@_p _p `*.32Cuc  1 a 2 27 ]
+"544
+[v LoRa_PrintRxFrame@label label `*.32Cuc  1 p 2 22 ]
+[v LoRa_PrintRxFrame@data data `*.39Cuc  1 p 2 24 ]
+[v LoRa_PrintRxFrame@len len `uc  1 p 1 26 ]
+"556
+} 0
+"573
+[v _LoRa_PrintAckRx LoRa_PrintAckRx `(v  1 s 1 LoRa_PrintAckRx ]
+{
+"580
+[v LoRa_PrintAckRx@_p_2689 _p `*.32Cuc  1 a 2 29 ]
+"577
+[v LoRa_PrintAckRx@_p_2687 _p `*.32Cuc  1 a 2 27 ]
+"575
+[v LoRa_PrintAckRx@_p _p `*.32Cuc  1 a 2 25 ]
+"573
+[v LoRa_PrintAckRx@label label `*.32Cuc  1 p 2 22 ]
+[v LoRa_PrintAckRx@ack ack `uc  1 p 1 24 ]
+"581
+} 0
+"170
+[v _UART_WriteHex8 UART_WriteHex8 `(v  1 s 1 UART_WriteHex8 ]
+{
+[v UART_WriteHex8@v v `uc  1 p 1 wreg ]
+"176
+[v UART_WriteHex8@_p _p `*.30Cuc  1 a 1 21 ]
+"172
+[v UART_WriteHex8@s s `[3]uc  1 a 3 17 ]
+"170
+[v UART_WriteHex8@v v `uc  1 p 1 wreg ]
+"173
+[v UART_WriteHex8@v v `uc  1 p 1 20 ]
+"177
+} 1
+"151
+[v _hex_digit hex_digit `(uc  1 s 1 hex_digit ]
+{
+[v hex_digit@v v `uc  1 p 1 wreg ]
+[v hex_digit@v v `uc  1 p 1 wreg ]
+"153
+[v hex_digit@v v `uc  1 p 1 13 ]
+"155
+} 1
+"631
+[v _LED_RefreshAll LED_RefreshAll `(v  1 s 1 LED_RefreshAll ]
+{
+"643
+[v LED_RefreshAll@stop stop `us  1 a 2 23 ]
+"642
+[v LED_RefreshAll@bus bus `uc  1 a 1 26 ]
+"640
+[v LED_RefreshAll@i i `uc  1 a 1 27 ]
+"639
+[v LED_RefreshAll@n n `uc  1 a 1 25 ]
+"654
+} 0
+"103
+[v _Config_WriteDefaultsToEEPROM Config_WriteDefaultsToEEPROM `(v  1 s 1 Config_WriteDefaultsToEEPROM ]
+{
+"115
+[v Config_WriteDefaultsToEEPROM@i i `uc  1 a 1 22 ]
+"124
+} 0
+"399
+[v _Bus_UpdateStop Bus_UpdateStop `(v  1 s 1 Bus_UpdateStop ]
+{
+[v Bus_UpdateStop@id_bus id_bus `uc  1 p 1 wreg ]
+[v Bus_UpdateStop@id_bus id_bus `uc  1 p 1 wreg ]
+[v Bus_UpdateStop@new_stop new_stop `us  1 p 2 11 ]
+"401
+[v Bus_UpdateStop@id_bus id_bus `uc  1 p 1 13 ]
+"402
+} 1
+"394
+[v _Bus_StopChanged Bus_StopChanged `(a  1 s 1 Bus_StopChanged ]
+{
+[v Bus_StopChanged@id_bus id_bus `uc  1 p 1 wreg ]
+[v Bus_StopChanged@id_bus id_bus `uc  1 p 1 wreg ]
+[v Bus_StopChanged@new_stop new_stop `us  1 p 2 11 ]
+"396
+[v Bus_StopChanged@id_bus id_bus `uc  1 p 1 15 ]
+"397
+} 1
+"404
+[v _BusTable_InitAuthorizedOnly BusTable_InitAuthorizedOnly `(v  1 s 1 BusTable_InitAuthorizedOnly ]
+{
+"410
+[v BusTable_InitAuthorizedOnly@id id `uc  1 a 1 24 ]
+"408
+[v BusTable_InitAuthorizedOnly@i i `uc  1 a 1 25 ]
+"406
+[v BusTable_InitAuthorizedOnly@n n `uc  1 a 1 23 ]
+"413
+} 0
+"372
+[v _BusList_Remove BusList_Remove `(a  1 s 1 BusList_Remove ]
+{
+[v BusList_Remove@id id `uc  1 p 1 wreg ]
+"380
+[v BusList_Remove@last last `uc  1 a 1 24 ]
+"375
+[v BusList_Remove@i i `uc  1 a 1 26 ]
+"374
+[v BusList_Remove@n n `uc  1 a 1 25 ]
+"372
+[v BusList_Remove@id id `uc  1 p 1 wreg ]
+"374
+[v BusList_Remove@id id `uc  1 p 1 23 ]
+"392
+} 1
+"339
+[v _BusList_Add BusList_Add `(a  1 s 1 BusList_Add ]
+{
+[v BusList_Add@id id `uc  1 p 1 wreg ]
+"353
+[v BusList_Add@_p_2613 _p `*.32Cuc  1 a 2 32 ]
+"344
+[v BusList_Add@_p _p `*.32Cuc  1 a 2 30 ]
+"348
+[v BusList_Add@n n `uc  1 a 1 34 ]
+"339
+[v BusList_Add@id id `uc  1 p 1 wreg ]
+"342
+[v BusList_Add@id id `uc  1 p 1 29 ]
+"365
+} 1
+"281 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart2.c
+[v _UART2_Write UART2_Write `(v  1 e 1 0 ]
+{
+[v UART2_Write@txData txData `uc  1 p 1 11 ]
+"284
+} 0
+"233
+[v _UART2_IsTxReady UART2_IsTxReady `(a  1 e 1 0 ]
+{
+"236
+} 0
+"48 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/nvm/src/nvm.c
+[v _NVM_IsBusy NVM_IsBusy `(a  1 e 1 0 ]
+{
+"51
+} 0
+"272
+[v _EEPROM_Write EEPROM_Write `(v  1 e 1 0 ]
+{
+"275
+[v EEPROM_Write@globalInterruptBitValue globalInterruptBitValue `uc  1 a 1 18 ]
+"272
+[v EEPROM_Write@address address `um  1 p 3 11 ]
+[v EEPROM_Write@data data `uc  1 p 1 14 ]
+"310
+} 0
+"325 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v _BusList_Contains BusList_Contains `(a  1 s 1 BusList_Contains ]
+{
+[v BusList_Contains@id id `uc  1 p 1 wreg ]
+"328
+[v BusList_Contains@i i `uc  1 a 1 25 ]
+"327
+[v BusList_Contains@n n `uc  1 a 1 24 ]
+"325
+[v BusList_Contains@id id `uc  1 p 1 wreg ]
+"327
+[v BusList_Contains@id id `uc  1 p 1 23 ]
+"335
+} 1
+"318
+[v _BusList_Count BusList_Count `(uc  1 s 1 BusList_Count ]
+{
+"320
+[v BusList_Count@n n `uc  1 a 1 19 ]
+"322
+} 0
+"257 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/nvm/src/nvm.c
+[v _EEPROM_Read EEPROM_Read `(uc  1 e 1 0 ]
+{
+[v EEPROM_Read@address address `um  1 p 3 11 ]
+"270
+} 0
+"80 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"99
+} 0
+"422 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_TransmitISR UART1_TransmitISR `(v  1 e 1 0 ]
+{
+"424
+[v UART1_TransmitISR@tempTxTail tempTxTail `uc  1 a 1 0 ]
+"442
+} 0
+"344
+[v _UART1_ReceiveISR UART1_ReceiveISR `(v  1 e 1 0 ]
+{
+"347
+[v UART1_ReceiveISR@tempRxHead tempRxHead `uc  1 a 1 8 ]
+"346
+[v UART1_ReceiveISR@regValue regValue `uc  1 a 1 7 ]
+"395
+} 0
+"458
+[v i2_UART1_DefaultParityErrorCallback UART1_DefaultParityErrorCallback `(v  1 s 1 i2_UART1_DefaultParityErrorCallback ]
+{
+"461
+} 0
+"301 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart2.c
+[v i2_UART2_DefaultParityErrorCallback UART2_DefaultParityErrorCallback `(v  1 s 1 i2_UART2_DefaultParityErrorCallback ]
+{
+"304
+} 0
+"453 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart1.c
+[v i2_UART1_DefaultOverrunErrorCallback UART1_DefaultOverrunErrorCallback `(v  1 s 1 i2_UART1_DefaultOverrunErrorCallback ]
+{
+"456
+} 0
+"296 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart2.c
+[v i2_UART2_DefaultOverrunErrorCallback UART2_DefaultOverrunErrorCallback `(v  1 s 1 i2_UART2_DefaultOverrunErrorCallback ]
+{
+"299
+} 0
+"448 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart1.c
+[v i2_UART1_DefaultFramingErrorCallback UART1_DefaultFramingErrorCallback `(v  1 s 1 i2_UART1_DefaultFramingErrorCallback ]
+{
+"451
+} 0
+"291 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart2.c
+[v i2_UART2_DefaultFramingErrorCallback UART2_DefaultFramingErrorCallback `(v  1 s 1 i2_UART2_DefaultFramingErrorCallback ]
+{
+"294
+} 0
+"431 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v _Lora_Recebeu Lora_Recebeu `(v  1 s 1 Lora_Recebeu ]
+{
+"467
+[v Lora_Recebeu@rx_dir rx_dir `uc  1 a 1 5 ]
+"433
+[v Lora_Recebeu@b b `uc  1 a 1 6 ]
+"499
+} 0
+"326 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart1.c
+[v i2_UART1_Read UART1_Read `(uc  1 e 1 0 ]
+{
+"328
+[v i2UART1_Read@readValue readValue `uc  1 a 1 1 ]
+"329
+[v i2UART1_Read@tempRxTail tempRxTail `uc  1 a 1 0 ]
+"341
+} 0
+"127 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v i2_UART1_ClearErrors UART1_ClearErrors `(v  1 e 1 0 ]
+{
+[s S1316 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"129
+[u S1321 . 2 `S1316 1 . 1 0 `ui 1 status 2 0 ]
+[v i2UART1_ClearErrors@st st `S1321  1 a 2 3 ]
+"136
+} 0
+"232 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/uart/src/uart1.c
+[v i2_UART1_ReceiveEnable UART1_ReceiveEnable `(v  1 e 1 0 ]
+{
+"235
+} 0
+"237
+[v i2_UART1_ReceiveDisable UART1_ReceiveDisable `(v  1 e 1 0 ]
+{
+"240
+} 0
+"319
+[v i2_UART1_ErrorGet UART1_ErrorGet `(ui  1 e 2 0 ]
+{
+"324
+} 0
+"94 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Start TMR0_Start `(v  1 e 1 0 ]
+{
+"97
+} 0
+"141
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"151
+} 0
+"416 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\main.c
+[v _Lora_RxTimeout_ISR Lora_RxTimeout_ISR `(v  1 e 1 0 ]
+{
+"423
+} 0
+"158 C:\Users\ivox2\Documents\IPCA\EEC\3º Ano\2º Semestre\Estágio\Projeto\Código\LoRa_and_RFID_with_ACK.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_DefaultOverflowCallback TMR0_DefaultOverflowCallback `(v  1 s 1 TMR0_DefaultOverflowCallback ]
+{
+"161
+} 0
+"99
+[v i2_TMR0_Stop TMR0_Stop `(v  1 e 1 0 ]
+{
+"102
+} 0
+"117
+[v i2_TMR0_CounterSet TMR0_CounterSet `(v  1 e 1 0 ]
+{
+[v i2TMR0_CounterSet@counterValue counterValue `ul  1 p 4 0 ]
+"121
+} 0
