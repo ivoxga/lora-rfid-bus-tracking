@@ -299,7 +299,7 @@ The PCB brings all the subsystems together on one board, **134.6 × 50.5 mm, 4 l
 ### Power system
 
 <p align="center">
-  <img src="images/power-tree.svg" width="900">
+  <img src="images/power-tree.png" width="900">
 </p>
 
 - **Solar charging:** the **BQ24650** charges the batteries from a **6 V / 2 W** panel. Its MPPSET input keeps the panel working near its **maximum power point** (set to 6 V). The charge voltage is set to **4.2 V** and the charge current to **405 mA**, within the cells' limits. Two LEDs on its STAT pins show *charging* and *charged*.
