@@ -5,7 +5,7 @@
 Each stop recognizes a bus that passes it by **RFID**, and passes that information to the other stops of the line by **LoRa radio**, stop to stop. Every stop has a row of LEDs, one per stop of the line, and the lit LED shows the **last stop the bus went through**. Each stop runs on **two Li-ion cells charged by a small solar panel**.
 
 I designed both the **hardware** (a 4-layer PCB with solar charging, battery protection and power conversion) and the **firmware** (a PIC microcontroller running the RFID reader, the LoRa link, its own communication protocol with acknowledgements and retransmission, and on-site configuration). The system was built and tested as a **working proof of concept** on four stops.
-
+ 
 <p align="center">
   <img src="images/hardware-setup.jpg" width="820"><br>
   <em>The test setup: the stop boards (PCB with LoRa module, RFID reader and MCU), the 18650 cells, the solar panel and the RFID tags that stand in for the buses</em>
